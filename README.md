@@ -5,5 +5,5 @@ protobuf生成的代码实在太大了，使用proto文件动态加载，有时�
 使用的是protobufjs,是官方的google-protobuf.  
 代码自己看吧，很简单的。例子用的是生成的ts。其实也可以生成json.要改成json,稍微改下就o了。
 通过生成配置动态加载protobuf  
-dpc:[https://github.com/xhaoh94/dpb](https://github.com/xhaoh94/dpb)
+dpc:[https://github.com/xhaoh94/dpb](https://github.com/xhaoh94/dpb)  
 protogen:[https://github.com/xhaoh94/protogen](https://github.com/xhaoh94/protogen)
