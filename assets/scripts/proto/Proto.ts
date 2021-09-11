@@ -76,9 +76,9 @@ export namespace proto {
             let isArray = cfg[3] === "1";
             if (types[type]) type = types[type]
             let size = wireSize[type] || 8;
-            let wt = wireTypes[type] || 2;
+            let wt = isArray ? 2 : t._$wireTypes[type] || 0;
             let dif = wt - wireType;
-            wireType = isArray ? 2 : wireTypes[type] || 2
+            wireType = wt
             index += size + dif;
 
             let f = msg[name];
